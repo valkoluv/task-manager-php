@@ -1,0 +1,26 @@
+# Dependency management
+/vendor/
+composer.lock
+/tools/
+
+# Build artifacts and temporary files
+/build/
+/temp/
+/cache/
+*.log
+*.tmp
+*.bak
+
+# Environment-specific configuration
+.env
+.env.local
+config/database.php # or similar sensitive configuration files
+
+# IDE and OS generated files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (if applicable)
+/node_modules/
